@@ -7,6 +7,9 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
         <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -18,10 +21,14 @@
             <center>
                 <br>
                 <button class="btn btn-info" onclick="startClassification();">Start</button>
-                <h4 id="Number_of_detection">I can hear-</h4>
-                <h3 id="Audio_detected"> </h3>
+                <h4 id="result_label">I can hear-</h4>
+                <h3 id="result_confidence"> </h3>
                 <br>
                 <img src="hearing.jpg" id="hearingIcon" width="400" height="550">
+                <img src="dog.jpg" id="dog" width="300" height="300">
+                <img src="whale.jpg" id="whale" width="300" height="300">
+                <img src="elephant.jpg" id="elephant" width="300" height="300">
+                <img src="sheep.jpg" id="sheep" width="300" height="300">
                 </center> 
             </div>
             <div class="copy_right_footer">

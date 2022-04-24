@@ -1,9 +1,33 @@
 body{
     background-color:beige;
+    font-family: 'Indie Flower', cursive;
 }
-h2{
-    color:darkslateblue
+.header_div {
+    background-color: cornflowerblue;
+    color:darkorchid;
 }
-p,h4{
-  color:brown;
+.header_div p{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color:burlywood;
+    letter-spacing: 2px;
+    font-size: 13px;
 }
+.main_div button{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    color:white;
+    width: 130px;
+    letter-spacing: 2px;
+}
+.copy_right_footer{
+    position:fixed;
+    bottom: 0;
+    background-color: rgb(117, 198, 201);
+    color:darkblue;
+    width: 100%;
+    font-size: bolder;
+    line-height: 3;
+    text-shadow: 7px 7px 7px white;
+}
+
